@@ -223,8 +223,8 @@ nav {
 }
 .instant-image-small {
   position: absolute;
-  top: 302%;
-  right: 40%;
+  top: 122rem;
+  right: 30rem;
   width: 15%;
 }
 
@@ -294,10 +294,10 @@ footer {
   display: flex;
   justify-content: center;
   gap: 2.5rem;
+  margin-bottom: 2rem;
 }
 .list-1 li {
   list-style-type: none;
-  margin-bottom: 2rem;
 }
 .list-1 li a {
   text-decoration: none;
@@ -316,11 +316,11 @@ footer {
   display: flex;
   justify-content: center;
   gap: 2.5rem;
+  margin-bottom: 2rem;
 }
 .list-2 li {
   list-style-type: none;
   list-style-type: none;
-  margin-bottom: 2rem;
 }
 .list-2 li a {
   text-decoration: none;
@@ -336,4 +336,104 @@ footer {
 /* Responsive */
 /* Mobile Device */
 @media screen and (max-width: 576px) {
+  /* Navbar */
+  nav {
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+  .right-nav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .right-nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .right-nav ul li {
+    margin-bottom: 1rem;
+  }
+  /* Banner */
+  .banner {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .banner-left {
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  /* Game */
+  .gamer {
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .gamer-image {
+    width: 100%;
+  }
+  .gamer-right {
+    text-align: center;
+    width: 80%;
+  }
+  .gamer-purpose {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  /* Online */
+  .online {
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .online-cards-container {
+    flex-direction: column;
+  }
+  .online-card {
+    margin-bottom: 1rem;
+  }
+  /* Instant */
+  .instant {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    flex-direction: column;
+  }
+  .instant-left {
+    text-align: center;
+    margin-left: 0rem;
+  }
+  .instant-title {
+    font-size: 2.2rem;
+    width: 100%;
+  }
+  .instant-description {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .instant-image-big {
+    margin-left: 1rem;
+  }
+  .instant-image-small {
+    width: 30%;
+    top: 257rem;
+    left: 1.5rem;
+  }
+  /* Games */
+  .games {
+    display: none;
+  }
+  /* Footer */
+  .footer-logo-image {
+    width: 20%;
+  }
+  .list-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.1rem;
+    margin-bottom: 1rem;
+  }
+  .list-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.1rem;
+  }
 }
