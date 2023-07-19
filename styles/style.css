@@ -107,6 +107,11 @@ nav {
 /* Gamer Section */
 .gamer {
   padding: 5% 12.5%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
   display: flex;
   align-items: center;
 }
@@ -141,6 +146,86 @@ nav {
 .gamer-purpose-details {
   color: #534c64;
   font-size: 23px;
+}
+
+/* Online Section */
+.online {
+  padding: 5% 12.5%;
+}
+.online-title {
+  color: #0b0223;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.online-title span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.online-description {
+  color: #534c64;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.online-cards-container {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1.5%;
+}
+.online-card {
+  width: 100%;
+}
+.card-image {
+  width: 100%;
+}
+.card-description {
+  margin-top: 1rem;
+  color: #534c64;
+  width: 95%;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+/* Instant Section */
+.instant {
+  padding: 3% 12.5%;
+  display: flex;
+  align-items: center;
+}
+.instant-left {
+  text-align: right;
+  margin-left: 4rem;
+}
+.instant-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  width: 60%;
+}
+.instant-title span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.instant-description {
+  margin-top: 1rem;
+  width: 60%;
+  color: #534c64;
+  font-size: 0.85rem;
+  line-height: 25px;
+}
+.instant-image-big {
+  width: 100%;
+}
+.instant-image-small {
+  position: absolute;
+  top: 302%;
+  right: 40%;
+  width: 15%;
 }
 /* Responsive */
 /* Mobile Device */
